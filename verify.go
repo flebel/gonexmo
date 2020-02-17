@@ -41,6 +41,7 @@ type VerifyMessageRequest struct {
 	CodeLength    int    `json:"code_length,omitempty"`
 	PINExpiry     int    `json:"pin_expiry,omitempty"`
 	NextEventWait int    `json:"next_event_wait,omitempty"`
+	WorkflowID    int    `json:"workflow_id,omitempty"`
 }
 
 // VerifyMessageResponse is the struct for the response from the verify
